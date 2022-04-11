@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand&display=swap");
+
+body {
+  background-attachment: fixed;
+  background-image: url("photos/spring.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  display: flex;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px 5px black;
+  color: pink;
+  text-align: center;
+  margin: 3vmin 20vmin 3vmin 20vmin;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  color: black;
+  margin: 3vmin 20vmin 3vmin 20vmin;
+}
+
+kbd {
+  font-size: 25vmin;
+  text-shadow: 2px 2px 5px black;
+  color: wheat;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 890px;
+}
+
+div {
+  background-repeat: none;
+  background-size: cover;
+  width: 30vmin;
+  height: 30vmin;
+  margin: 3vmin;
+  padding: 2vmin;
+  border-radius: 20%;
+  color: wheat;
+  box-shadow: 2px 2px 10px black;
+  text-align: center;
+  filter: grayscale(80%);
+}
+
+div:hover {
+  filter: grayscale(0%);
+}
+
+div:active {
+  filter: brightness(90%);
+}
+
+/* sounds */
+audio[data-key="49"] {
+  background: pink;
+}
+audio[data-key="50"] {
+  background: pink;
+}
+audio[data-key="51"] {
+  background: pink;
+}
+audio[data-key="52"] {
+  background: pink;
+}
+audio[data-key="53"] {
+  background: pink;
+}
+audio[data-key="54"] {
+  background: pink;
+}
+audio[data-key="55"] {
+  background: pink;
+}
+audio[data-key="56"] {
+  background: pink;
+}
+audio[data-key="57"] {
+  background: pink;
+}
+
+/* images/id */
+
+#one {
+  background-image: url(photos/bird.jpg);
+}
+#two {
+  background-image: url(photos/baseball.jpg);
+  background-position: right;
+}
+#three {
+  background-image: url(photos/fountain.jpg);
+}
+#four {
+  background-image: url(photos/chimes.jpg);
+  background-position: right;
+}
+#five {
+  background-image: url(photos/sweep.jpg);
+}
+#six {
+  background-image: url(photos/dog.jpg);
+  background-position: right;
+}
+#seven {
+  background-image: url(photos/cathedral.jpg);
+}
+#eight {
+  background-image: url(photos/mowing.jpg);
+}
+#nine {
+  background-image: url(photos/ocean.jpg);
+}
+
+@media screen and (max-width: 830px) {
+  h1 {
+    font-size: 70px;
+    margin: 3vmin 10vmin 3vmin 10vmin;
+  }
+  h2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  body {
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
